@@ -77,11 +77,12 @@ main .btn1{
 }
 .covert{
     position: absolute;
-    top: -20%;
-    right: -10%;
+    top: -10%;
+    left: 60%;
+    overflow-x: hidden;
+  
 }
 main .btn2{
-    margin-top: 20px;
     color: #ffffff;
     font-size: 24px;
     font-family: 'Roboto',Arial,sans-serif;
@@ -89,7 +90,7 @@ main .btn2{
     font-weight: 500;
 
     background-color: #131519;
-    padding: 10px 30px;
+    padding: 20px 30px;
     border-radius: 20px;
     border: 2px solid #31c6b2;
 
@@ -137,14 +138,14 @@ main .btn2{
 
 
 .whom .left{
-    position: relative;
-    left: 15%;
-    top: -110px;
+    position: absolute;
+    left: 5%;
+    top: 80.5%;
 }
 .whom .right{
-    position: relative;
-    right: -53%;
-    top: -110px;
+    position: absolute;
+    right: 5%;
+    top: 80.5%;
 
 }
 
@@ -255,13 +256,15 @@ body,head{
 }
 
 .monets{
-    position: absolute;
-    left: -20%;
+    position:absolute;
+    left: -10%;
+    width: 20%;
 }
 .garant{
     position: absolute;
-    right: -5%;
-    bottom: -90%;
+    right: 0%;
+    width: 20%;
+    
 }
 
 .tarif h1{
@@ -367,6 +370,37 @@ ul li::before {
     color: #25a582;
   }
 
+  .info-whom{
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+@media(max-width:1800px){
+    .covert{
+        display: block;
+        width: 40%;
+        top: -5%;
+        right: 0px;
+    }
+    .dollar{
+        width: 40%;
+        position: absolute;
+        left: -23%;
+    }
+    .garant{
+        max-width: 12%;
+    }
+    .left{
+        position: absolute;
+        left: -10%;
+    }
+    .right{
+        position: absolute;
+        right: 10%;
+    }
+
+}
+
   @media(max-width:1100px){
     .dollar{
        display: none;
@@ -392,6 +426,9 @@ ul li::before {
       }
       .info{
         min-height: 244px;
+      }
+      .covert{
+        display: none;
       }
       
   }
@@ -449,12 +486,12 @@ ul li::before {
     }
     .covert{
         display: block;
-        width: 80%;
+        width: 40%;
         top: 40%;
     }
     .dollar{
         display: block;
-        width: 80%;
+        width: 40%;
         top: 40%;
     }
 
@@ -470,7 +507,7 @@ ul li::before {
   @media(max-width:510px){
     .person img{
         position: absolute;
-        top:45%;
+        top:55%;
         max-width: 50%;
         height: auto;
         right: 25%;
@@ -481,17 +518,17 @@ ul li::before {
     }
     main .btn2{
         position: absolute;
-        top: 45%;
-        right: 10%;
+        top: 60%;
+        right: 8%;
     }
     .covert{
         display: block;
-        width: 80%;
+        width: 40%;
         top: 45%;
     }
     .dollar{
         display: block;
-        width: 80%;
+        width: 40%;
         top: 45%;
     }
   }
