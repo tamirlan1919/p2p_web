@@ -55,6 +55,7 @@ main h2{
     border-style: solid;
 }
 main .btn1{
+    margin-bottom: 30px;
     margin-right: 50px;
     margin-top: 80px;
     color: #ffffff;
@@ -84,6 +85,7 @@ main .btn1{
 }
 main .btn2{
     color: #ffffff;
+    margin-bottom: 30px;
     font-size: 24px;
     font-family: 'Roboto',Arial,sans-serif;
     line-height: 1;
@@ -177,7 +179,7 @@ body,head{
     
     
 }
-.program .box p{
+.program .box ol li{
     color: #414141;
     font-size: 24px;
     font-family: 'Muller',Arial,sans-serif;
@@ -265,6 +267,9 @@ body,head{
     right: 0%;
     width: 20%;
     
+}
+.white{
+    padding-left: 20px;
 }
 
 .tarif h1{
@@ -393,10 +398,13 @@ ul li::before {
     .left{
         position: absolute;
         left: -10%;
+        top: 107%;
     }
     .right{
         position: absolute;
         right: 10%;
+        top: 107%;
+
     }
 
 }
