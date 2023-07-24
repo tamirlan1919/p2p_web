@@ -7,10 +7,13 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     color: #fff;
- 
+    
     padding-top: 100px;
 
 
+}
+.menu{
+    align-items: center;
 }
 
 body{
@@ -22,7 +25,7 @@ main h1{
     font-size: 58px;
     font-family: 'Roboto',Arial,sans-serif;
     line-height: 1;
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
     background-position: center center;
@@ -31,16 +34,22 @@ main h1{
     margin-bottom: 30px;
 }
 main p{
-    color: #31c6b2;
+    color: #34d86b;
     font-size: 36px;
     font-family: 'Lugrasimo',Arial,sans-serif;
     line-height: 1;
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
     background-position: center center;
     border-color: transparent;
     border-style: solid;
+}
+.info-whom{
+    padding:15px;
+}
+.int{
+    font-family: 'Montserrat';
 }
 
 main h2{
@@ -68,8 +77,9 @@ main .btn1{
     border-style: solid;
     padding: 20px 30px;
     border-radius: 20px;
-    background: linear-gradient(#31c6b2,#25a582)
-
+    border: none;
+    background: linear-gradient(#34d86b,#298a51)
+/* 25a582 */
 }
 .dollar{
     position: absolute;
@@ -94,20 +104,119 @@ main .btn2{
     background-color: #131519;
     padding: 20px 30px;
     border-radius: 20px;
-    border: 2px solid #31c6b2;
+    border: 2px solid #298a51;
 
 }
 
-.person img{
-    
-   width: 80%;
-   height: auto;
+.imam{
+    width: 80%;
+    height: auto;
+   object-fit: contain;
+   border-bottom-left-radius: 50%;
+   border-bottom-right-radius: 25%;
 }
 
 .whom{
     padding-top: 100px;
     text-align: center;
     background-color: #F5FAFF;
+}
+
+.spiker{
+    justify-content: space-between;
+    padding-top: 70px;
+    background: url('../imgs/Frame_2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.smart{
+    position: relative;
+    top: -150px;
+    right:0px;
+}
+.author{
+    width: 200px;
+    position: relative;
+    top: -100px;
+    right: -400px;
+}
+.person h2{
+    position: relative;
+    top: -100px;
+    max-width: 100px;
+
+    left: 100px;
+    color: #34d86b;
+    font-size: 20px;
+    font-family: 'Tektur',Arial,sans-serif;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+.sid-img h2{
+    position: relative;
+    top: -100px;
+    max-width: 100px;
+
+    float: right;
+    color: #34d86b;
+    font-size: 20px;
+    font-family: 'Tektur',Arial,sans-serif;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+.expert{
+
+    text-align: center;
+    margin-bottom: 70px;
+    color: #fff;
+    font-size: 64px;
+    font-family: 'Muller',Arial,sans-serif;
+    line-height: 1;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.wrap-sp ul li{
+    margin-bottom: 20px;
+    color: #777777;
+    font-size: 24px;
+    font-family: 'Muller',Arial,sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+.wrap-sp h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.sid{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+
+.boxx{
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
 }
 
 .whom h1{
@@ -124,7 +233,7 @@ main .btn2{
 }
 .whom .text{
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Roboto',Arial,sans-serif;
     line-height: 1.4;
     font-weight: 400;
@@ -142,17 +251,21 @@ main .btn2{
 .whom .left{
     position: absolute;
     left: 5%;
-    top: 110%;
+    top: 80.5%;
 }
 .whom .right{
     position: absolute;
     right: 5%;
-    top: 110%;
+    top: 80.5%;
 
 }
 
 .whom .wrapper{
     display: flex;
+}
+
+.whom{
+    padding-bottom: 70px;
 }
 
 body,head{
@@ -212,20 +325,25 @@ body,head{
     border-style: solid;
 }
 .blue{
-    background: linear-gradient(#31c6b2,#25a582);
+    background: linear-gradient(#34d86b,#298a51);
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     padding: 10px;
-    min-width: 160px;
+    max-width: 130px;
 
 }
 
+.white{
+    max-width: 100%;
+}
 .wrap-box{
     margin-bottom: 50px;
 }
+
 .wrap-box h1{
     padding: 10px;
-    background: linear-gradient(#31c6b2,#25a582);
+    background: linear-gradient(#34d86b,#298a51);
+    border: none;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     color: #ffffff;
@@ -277,20 +395,29 @@ body,head{
     
 }
 .arbitrazh{
-    
+
+
     
     max-width: 760px;
-    border: 1px solid #25a582;
+    border: 1px solid #34d86b;
     margin: 0 auto;
     
 }
+.foot .btn1{
+    margin: 0 auto;
+}
 .tarif{
+    background-color: rgb(245, 250, 255);
     padding-top: 100px;
     padding-bottom: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+
 }
+
 .text-arb{
     padding: 20px;
-    background-color: #25a582;
+    background-color: #34d86b;
     color: #ffffff;
     font-size: 40px;
     font-family: 'Muller',Arial,sans-serif;
@@ -350,7 +477,8 @@ ul li{
     border-style: solid;
     padding: 20px 30px;
     border-radius: 20px;
-    background: linear-gradient(#31c6b2,#25a582)
+    border: none;
+    background: linear-gradient(#34d86b,#298a51)
     
 }
 
@@ -360,7 +488,8 @@ ul li::before {
     font-size: 35px;
     position: relative;
     left: -20px; /* Позиционируем маркер слева от текста */
-    color: #25a582; /* Задаем желаемый цвет маркера */
+    color: #34d86b; /* Задаем желаемый цвет маркера */
+    top: 4px;
   }
 
   footer{
@@ -372,12 +501,15 @@ ul li::before {
     padding: 10px;
   }
   footer a{
-    color: #25a582;
+    color: #34d86b;
   }
 
   .info-whom{
     text-align: center;
     margin: 0 auto;
+  }
+  .inf{
+    float: right;
   }
   
 @media(max-width:1800px){
@@ -407,6 +539,14 @@ ul li::before {
 
     }
 
+}
+@media(max-width:1400px){
+    .author{
+        width: 200px;
+        position: relative;
+        top: -100px;
+        right: -200px;
+    }
 }
 
   @media(max-width:1100px){
@@ -438,20 +578,26 @@ ul li::before {
       .covert{
         display: none;
       }
+      .author{
+        width: 200px;
+        position: relative;
+        top: -100px;
+        right: -10px;
+    }
       
   }
 
 
   @media(max-width:500px){
-    .person img{
+    .imam{
         width: 100%;
 
     }
   }
   
   @media(max-width:990px){
-    .person img{
-        width: 100%;
+    .imam{
+        width: 80%;
         float: right;
     }
     main h1{
@@ -460,9 +606,39 @@ ul li::before {
     .info{
         min-height: 270px;
     }
+    .author{
+        width: 200px;
+        position: relative;
+        top: -100px;
+        right: -100px;
+    }
+    .smart{
+        position: relative;
+    top: -40px;
+    right: -70px;
+    }
+    .sid-img h2{
+        position: relative;
+        top: -50px;
+        left: -50px;
+        float: right;
+    }
   }
 
   @media(max-width:767px){
+    .person h2{
+        position: relative;
+        max-width: 100px;
+        top: -400px;
+        left: 35px;
+        float: left;
+    }
+    .author{
+        width: 200px;
+        position: relative;
+        top: -100px;
+        right: -100px;
+    }
     body{
         text-align: center;
         margin: 0 auto;
@@ -476,16 +652,20 @@ ul li::before {
         text-align: center;
         margin: 0 auto;
     }
-    .person img{
+    .imam{
         position: absolute;
         top:38%;
-        max-width: 50%;
+        max-width: 60%;
         height: auto;
-        right: 25%;
+        right: 18%;
     }
     main .btn1{
         margin-top: 500px;
         margin-bottom: 50px;
+        position: relative;
+        left: 8%;
+        top: -70px;
+        z-index: 1;
     }
     main .btn2{
         position: absolute;
@@ -504,39 +684,140 @@ ul li::before {
     }
 
   }
+  .podval{
+    padding-top:50px;
+    margin-bottom: 50px;
+  }
 
   @media(max-width:681px){
+    .int{
+        font-size: 28px;
+    }
+    .inf h1{
+        font-size: 34px;
+    }
+    .inf h2{
+        font-size: 20px;
+    }
     main .btn2{
         position: absolute;
         top: 40%;
         right: 15%;
     }
+    .expert{
+        font-size: 25px;
+    }
+    .whom h1{
+        font-size: 25px;
+    }
+    .program h1{
+        font-size: 25px;
+    }
+    .program .box h1{
+        font-size: 25px;
+
+    }
+    .program .box ol li{
+        font-size: 18px;
+    }
+    .info h1{
+ font-size: 25px;
+    }
+    .tar-uch{
+        font-size: 25px;
+    }
+    .text-arb{
+        font-size: 25px;
+
+    }
+    .wrap-sp ul li{
+        font-size: 19px;
+    }
+    .person h2{
+       
+        font-size: 15px;
+    }
   }
   @media(max-width:510px){
-    .person img{
+        .person h2{
+        position: relative;
+        top: -360px;
+        left: 45px;
+        float: left;
+    }
+    .author{
+        width: 200px;
+        position: relative;
+        top: -250px;
+        right: -50px;
+    }
+    .imam{
         position: absolute;
-        top:55%;
-        max-width: 50%;
+        top:52%;
+        max-width: 70%;
         height: auto;
-        right: 25%;
+        right: 10%;
     }
     main .btn1{
         margin-top: 500px;
         margin-bottom: 50px;
+        position: relative;
+        top: 40px;
+        left: 10%;
     }
     main .btn2{
         position: absolute;
-        top: 60%;
-        right: 8%;
+        top: 52%;
+        right: 1%;
     }
     .covert{
         display: block;
         width: 40%;
-        top: 45%;
+        top: 65%;
     }
     .dollar{
         display: block;
         width: 40%;
         top: 45%;
+    }
+  }
+
+  @media(max-width:410px){
+    .cen{
+        font-size: 50px;
+    }
+    .program .box ol li{
+        font-size: 20px;
+    }
+    .imam{
+        max-width: 80%;
+        position: absolute;
+        top: 450px;
+    }
+    .white h2{
+        font-size: 20px;
+    }
+    main .btn1{
+        margin-top: 500px;
+        margin-bottom: 50px;
+        position: relative;
+        top: 45px;
+        left: 10%;
+    }
+    main .btn2{
+        position: absolute;
+        top: 450px;
+        right: 2%;
+    }
+    .person h2{
+        position: relative;
+        left: 0;
+    }
+    .sid{
+        width: 110%;
+    }
+      .covert{
+        position: absolute;
+        top: 55%;
     }
   }
